@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int toastMessageId = 0;
 
         if(userChooseCorrect == answerIsTrue){
-            bingo = (bingo + 1) % questionList.size();
+            bingo += 1;
             guessCorrect.setText("Bingo: " + bingo);
             toastMessageId = R.string.correct_answer;
         }else{
