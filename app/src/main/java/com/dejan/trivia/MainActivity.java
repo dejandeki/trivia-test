@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button trueButton, falseButton;
     private ImageButton nextButton, prevButton;
     private int currentQuestionIndex = 0;
-    private int bingo = 0;
+    private static int bingo = 0;
     private List<Question> questionList;
 
     @Override
